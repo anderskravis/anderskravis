@@ -1,0 +1,118 @@
+$colour-bg: #081020;
+$colour-primary: #4669F6;
+$colour-secondary: #21D06F;
+$colour-font: #ffffff;
+
+$transition: linear 0.23s;
+
+$font-size-s: 14px;
+$font-size-m: 18px;
+$font-size-l: 22px;
+$fontweight: 500;
+$fontfam: 'avenir', 'avenir next', 'helvetica neue', 'monaco', 'comic sans ms', sans-serif;
+
+body {
+  background: $colour-bg;
+  color: $colour-font;
+  padding: 20px;
+  font-family: $fontfam;
+}
+
+a {
+  color: $colour-primary;
+  text-decoration: none;
+  padding-right: 2px;
+  transition: $transition;
+  &:hover {
+  color: $colour-secondary;
+  }
+}
+
+.whatup {
+  margin: 60px;
+  /* mobile styles */
+  @media all and (max-width: 736px){
+    margin: 20px auto;
+  }
+  #anderskravis {
+  fill: $colour-primary;
+  }
+
+  .me {
+    margin-top: 20px;
+    padding: 20px 0px;
+    width: 63.23%;
+    max-width: 721px;
+    line-height: 1.723em;
+    opacity: 0;
+    position: relative;
+    bottom: -20px;
+    -webkit-animation: didntseeyouthere 1.5s forwards;
+    -webkit-animation-delay: .23s;
+    animation: didntseeyouthere 1.5s forwards;
+    animation-delay: .42s;
+    /* mobile styles */
+    @media all and (max-width: 736px){
+      width: 100%;
+    }
+    @keyframes didntseeyouthere {
+    0% { opacity: 0; bottom: -20px;}
+    100% { bottom: 0px; opacity: 100;}
+    }
+
+    h1 {
+      display: inline;
+      color: $colour-font;
+      font-size: $font-size-l;
+      font-weight: $fontweight;
+      margin: 0;
+    }
+    color: $colour-font;
+    font-size: $font-size-l;
+    font-weight: $fontweight;
+  }
+  .links {
+    display: block;
+    max-width: 240px;
+    margin-top: 20px;
+    border-left: 2px solid $colour-primary;
+    transition: $transition;
+    opacity: 0;
+    position: relative;
+    bottom: -20px;
+    -webkit-animation: didntseeyouthere 1.5s forwards;
+    -webkit-animation-delay: .23s;
+    animation: didntseeyouthere 1.5s forwards;
+    animation-delay: 2.23s;
+
+    a {
+      display: block;
+      position: relative;
+      left: -2px;
+      padding-left: 20px;
+      border-left: 2px solid $colour-primary;
+      font-size: $font-size-m;
+      font-weight: $fontweight;
+      transition: $transition;
+      padding: 8px 20px;
+      @media all and (max-width: 736px){
+        font-size: $font-size-l;
+        padding: 16px 20px;
+      }
+      .emoji {
+        padding-left: 8px;
+        transition: $transition;
+      }
+      &:hover {
+        border-left: 2px solid $colour-secondary;
+        position: relative;
+        left: -2px;
+        transition: $transition;
+        .emoji {
+          padding-left: 14px;
+        }
+      }
+    }
+  }
+
+}
