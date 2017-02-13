@@ -57,7 +57,12 @@ a {
     }
     @keyframes didntseeyouthere {
     0% { opacity: 0; bottom: -20px;}
-    100% { bottom: 0px; opacity: 100;}
+    100% { opacity: 1; bottom: 0px;}
+    }
+
+    @-webkit-keyframes didntseeyouthere {
+    0% { opacity: 0; bottom: -20px;}
+    100% { opacity: 1; bottom: 0px;}
     }
 
     h1 {

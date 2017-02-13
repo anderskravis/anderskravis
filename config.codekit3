@@ -482,6 +482,22 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 890,
+		"oA": 0,
+		"oAP": "\/favicon-16x16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1551,
+		"oA": 0,
+		"oAP": "\/favicon-32x32.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
@@ -569,6 +585,12 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -592,6 +614,16 @@
 		"oA": 2,
 		"oAP": "\/robots.txt",
 		"oF": 0
+		},
+	"\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/scss\/anders.scss": {
 		"aP": 0,
