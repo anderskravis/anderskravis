@@ -7,7 +7,7 @@
 		"uuidString": "0CE7E37B-95B3-4552-99D4-84B81095D5BB"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25900",
 "files": {
 	"\/.babelrc": {
 		"ft": 8192,
@@ -73,7 +73,10 @@
 		"oA": 0,
 		"oAP": "\/app\/images\/touch\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/app\/images\/touch\/chrome-touch-icon-192x192.png": {
 		"ft": 32768,
@@ -81,7 +84,10 @@
 		"oA": 0,
 		"oAP": "\/app\/images\/touch\/chrome-touch-icon-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/app\/images\/touch\/icon-128x128.png": {
 		"ft": 32768,
@@ -89,7 +95,10 @@
 		"oA": 0,
 		"oAP": "\/app\/images\/touch\/icon-128x128.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/app\/images\/touch\/ms-touch-icon-144x144-precomposed.png": {
 		"ft": 32768,
@@ -97,7 +106,10 @@
 		"oA": 0,
 		"oAP": "\/app\/images\/touch\/ms-touch-icon-144x144-precomposed.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/app\/index.html": {
 		"ft": 8192,
@@ -127,6 +139,7 @@
 		},
 	"\/app\/scripts\/main.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/app\/scripts\/main-min.js",
@@ -136,6 +149,7 @@
 		},
 	"\/app\/scripts\/sw\/runtime-caching.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/app\/scripts\/sw\/runtime-caching-min.js",
@@ -145,6 +159,7 @@
 		},
 	"\/app\/service-worker.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/app\/service-worker-min.js",
@@ -168,7 +183,10 @@
 		"oA": 0,
 		"oAP": "\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/browserconfig.xml": {
 		"ft": 8192,
@@ -488,7 +506,10 @@
 		"oA": 0,
 		"oAP": "\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/favicon-32x32.png": {
 		"ft": 32768,
@@ -496,7 +517,10 @@
 		"oA": 0,
 		"oAP": "\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
@@ -506,6 +530,7 @@
 		},
 	"\/gulpfile.babel.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/gulpfile.babel-min.js",
@@ -543,6 +568,7 @@
 		},
 	"\/js\/main.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/main-min.js",
@@ -552,6 +578,7 @@
 		},
 	"\/js\/plugins.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/plugins-min.js",
@@ -561,6 +588,7 @@
 		},
 	"\/js\/vendor\/jquery-1.12.0.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/vendor\/jquery-1.12.0.min-min.js",
@@ -570,6 +598,7 @@
 		},
 	"\/js\/vendor\/modernizr-2.8.3.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/vendor\/modernizr-2.8.3.min-min.js",
@@ -670,7 +699,10 @@
 		"oA": 0,
 		"oAP": "\/tile-wide.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/tile.png": {
 		"ft": 32768,
@@ -678,7 +710,10 @@
 		"oA": 0,
 		"oAP": "\/tile.png",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/yarn.lock": {
 		"ft": 8192,
@@ -1099,6 +1134,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -1106,6 +1145,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -1203,6 +1246,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -1222,6 +1269,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -1351,6 +1402,10 @@
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
 			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-caller": {
 			"active": 0,
 			"optionString": ""
@@ -1365,6 +1420,10 @@
 			},
 		"no-class-assign": {
 			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
 			"optionString": ""
 			},
 		"no-cond-assign": {
@@ -1567,6 +1626,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1644,6 +1707,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1843,6 +1910,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -1879,6 +1950,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -1894,6 +1969,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -1943,6 +2022,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -1983,11 +2066,19 @@
 			"active": 0,
 			"optionString": "'safe'"
 			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
 		"symbol-description": {
 			"active": 0,
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2434,7 +2525,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2457,14 +2549,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2527,7 +2611,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
@@ -2612,9 +2698,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
