@@ -61,23 +61,35 @@ header {
   border-radius: 50%;
   position: absolute;
   z-index: 0;
-  transform: rotate3d(0); }
+  transform: scale(0.8); }
   #blob.blue {
     background: #0E00FF;
     width: 560px;
     height: 560px;
     top: 40px;
     right: 8%;
-    opacity: 0.16;
-    filter: blur(32px); }
+    opacity: 0.4;
+    filter: blur(48px);
+    -webkit-filter: blur(32px);
+    -moz-filter: blur(32px);
+    -o-filter: blur(32px);
+    -ms-filter: blur(32px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='32');
+    animation: bloborbit infinite 6s ease alternate; }
   #blob.pink {
     background: #FF00A0;
     width: 440px;
     height: 440px;
     top: 240px;
     filter: blur(48px);
+    -webkit-filter: blur(48px);
+    -moz-filter: blur(48px);
+    -o-filter: blur(48px);
+    -ms-filter: blur(48px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='48');
     right: 4%;
-    opacity: 0.08; }
+    opacity: 0.08;
+    animation: bloborbit infinite 6s ease alternate; }
 
 #work {
   display: flex;
@@ -104,3 +116,13 @@ header {
     top: -50px;
     right: 0px;
     transform: scale(0.8); }
+
+@keyframes bloborbit {
+  0% {
+    top: 0px;
+    right: 8%;
+    filter: blur(48px); }
+  100% {
+    top: 100px;
+    right: 0%;
+    filter: blur(0px); } }
