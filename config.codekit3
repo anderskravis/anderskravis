@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.editorconfig",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -49,7 +57,7 @@
 	"creationDate": 508518552,
 	"displayValue": "anderskravis",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "/apple-touch-icon.png",
+	"iconImageName": "brackets-brick",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
