@@ -50,7 +50,7 @@ nav {
       img {
         transition: $transition;
         width: auto;
-        height: 80%;
+        height: auto;
       }
       &:hover {
         background: none;
@@ -143,7 +143,7 @@ header {
     -o-filter: blur(32px);
     -ms-filter: blur(32px);
     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='32');
-    animation: bloborbit infinite 6s ease alternate;
+    animation: bloborbit infinite 8s ease-in-out alternate;
   }
   &.pink {
     background: #FF00A0;
@@ -158,7 +158,7 @@ header {
     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='48');
     right: 4%;
     opacity: 0.08;
-    animation: bloborbit infinite 6s ease alternate;
+    animation: bloborbit infinite 8s ease-in-out alternate;
   }
 }
 
@@ -191,13 +191,11 @@ header {
   }
 
   .card-head {
-    text-shadow: 0px 1px 0px rgba(255,255,255,1);
     padding: 24px;
     z-index: 2;
     display: block;
     position: relative;
     @media only screen and (max-width: 800px) {
-      // background: rgba(255,255,255,0.4);
       padding-bottom: 8px;
     }
   }
@@ -228,6 +226,7 @@ header {
     margin-bottom: 4px;
     font-size: 12px;
     opacity: 0.4;
+    text-shadow: 0px 1px 0px rgba(255,255,255,1);
   }
 
   &.third {
@@ -283,9 +282,9 @@ header {
   }
 
   100% {
-    top: 100px;
+    top: 96px;
     right: 0%;
-    filter: blur(0px);
+    filter: blur(0.1px);
 
   }
 
