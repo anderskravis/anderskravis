@@ -38,7 +38,9 @@ nav {
   background: #ffffff;
   padding: 48px;
   position: relative; }
-
+  @media only screen and (max-width: 800px) {
+    .container {
+      padding: 20px; } }
 header {
   z-index: 1;
   position: relative;
@@ -46,10 +48,16 @@ header {
   header h1 {
     font-size: 56px;
     color: black; }
+    @media only screen and (max-width: 800px) {
+      header h1 {
+        font-size: 40px; } }
   header h2 {
     font-size: 56px;
     color: rgba(0, 0, 0, 0.5);
     max-width: 1280px; }
+    @media only screen and (max-width: 800px) {
+      header h2 {
+        font-size: 24px; } }
     header h2 a {
       color: rgba(0, 0, 0, 0.5);
       text-decoration: none;
@@ -107,14 +115,20 @@ header {
   height: 400px;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 12px;
-  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.12); }
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.12);
+  transition: 0.12s ease-in-out; }
+  .work-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.08); }
   .work-card .card-head {
-    display: block;
-    position: absolute;
     text-shadow: 0px 1px 0px white;
     padding: 24px;
-    z-index: 1;
-    border-radius: 12px; }
+    z-index: 2;
+    display: block;
+    position: relative; }
+    @media only screen and (max-width: 800px) {
+      .work-card .card-head {
+        padding-bottom: 8px; } }
   .work-card .callout {
     position: absolute;
     z-index: 2;
@@ -123,6 +137,9 @@ header {
     color: #0E00FF;
     font-size: 12px;
     max-width: 80px; }
+    @media only screen and (max-width: 800px) {
+      .work-card .callout {
+        display: none; } }
   .work-card h3 {
     margin-top: 0px;
     margin-bottom: 8px; }
@@ -132,9 +149,17 @@ header {
     font-size: 12px;
     opacity: 0.4; }
   .work-card.third {
-    flex: 0.5; }
-  .work-card.double {
     flex: 1; }
+    @media only screen and (max-width: 800px) {
+      .work-card.third {
+        flex: 100%;
+        margin-bottom: 40px; } }
+  .work-card.double {
+    flex: 2; }
+    @media only screen and (max-width: 800px) {
+      .work-card.double {
+        flex: 100%;
+        margin-bottom: 40px; } }
   .work-card .device {
     z-index: 0 !important; }
   .work-card .iphone-x {
@@ -142,12 +167,20 @@ header {
     top: 32px;
     left: 50%;
     transform: translateX(-50%) scale(0.8); }
+    @media only screen and (max-width: 800px) {
+      .work-card .iphone-x {
+        transform: translateX(-50%) scale(0.6);
+        top: -60px; } }
   .work-card .macbook {
     position: absolute;
     top: -80px;
     left: 64%;
     transform: translateX(-50%) scale(0.6); }
-
+    @media only screen and (max-width: 800px) {
+      .work-card .macbook {
+        left: 50%;
+        transform: translateX(-50%) scale(0.46);
+        top: -80px; } }
 @keyframes bloborbit {
   0% {
     top: 0px;
