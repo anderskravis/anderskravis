@@ -265,6 +265,17 @@ header {
         flex: 100%;
         margin-bottom: 40px;
     }
+    .macbook {
+      position: absolute;
+      top: -80px;
+      left: 50%;
+      transform: translateX(-50%) scale(0.44);
+      @media only screen and (max-width: 800px) {
+        left: 50%;
+        transform: translateX(-50%) scale(0.46);
+        top: -80px;
+      }
+    }
   }
 
   &.double {
@@ -280,6 +291,17 @@ header {
   }
 
   .iphone-x {
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%) scale(0.8);
+    @media only screen and (max-width: 800px) {
+      transform: translateX(-50%) scale(0.6);
+      top: -60px;
+    }
+  }
+
+  .iphone5c {
     position: absolute;
     top: 32px;
     left: 50%;

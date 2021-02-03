@@ -133,6 +133,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/work/landing-lbby.png": {
+		"ft": 32768,
+		"iS": 1198139,
+		"oA": 0,
+		"oAP": "/img/work/landing-lbby.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/work/notification.png": {
 		"ft": 32768,
 		"iS": 71958,
