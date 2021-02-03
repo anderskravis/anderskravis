@@ -25,6 +25,69 @@
 		"oAP": "/about/index.html",
 		"oF": 0
 		},
+	"/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 6206,
+		"oA": 0,
+		"oAP": "/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 18273,
+		"oA": 0,
+		"oAP": "/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 5598,
+		"oA": 0,
+		"oAP": "/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 488,
+		"oA": 0,
+		"oAP": "/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 898,
+		"oA": 0,
+		"oAP": "/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
+		},
 	"/img/Icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -174,6 +237,14 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/site.webmanifest",
+		"oF": 0
+		},
 	"/sources/devices.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -216,7 +287,7 @@
 	"creationDate": 508518552,
 	"displayValue": "anderskravis",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-brick",
+	"iconImageName": "/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
