@@ -193,6 +193,9 @@ header {
   flex-wrap: wrap;
   margin:0 -24px;
   margin-bottom: 24px;
+  @media only screen and (max-width: 800px) {
+      margin-bottom: 0px;
+  }
 }
 
 .work-card {
@@ -233,6 +236,11 @@ header {
     color: $blue;
     font-size: 12px;
     max-width: 80px;
+    @media only screen and (max-width: 1200px) {
+      font-size: 8px;
+      max-width: 48px;
+
+    }
     @media only screen and (max-width: 800px) {
       display: none;
     }
@@ -270,6 +278,11 @@ header {
       top: -80px;
       left: 50%;
       transform: translateX(-50%) scale(0.44);
+      @media only screen and (max-width: 1200px) {
+        left: 86%;
+        transform: translateX(-50%) scale(0.46);
+        top: -80px;
+      }
       @media only screen and (max-width: 800px) {
         left: 50%;
         transform: translateX(-50%) scale(0.46);
@@ -295,8 +308,12 @@ header {
     top: 32px;
     left: 50%;
     transform: translateX(-50%) scale(0.8);
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1200px) {
       transform: translateX(-50%) scale(0.6);
+      top: -60px;
+    }
+    @media only screen and (max-width: 800px) {
+      transform: translateX(-50%) scale(0.56);
       top: -60px;
     }
   }
@@ -306,9 +323,13 @@ header {
     top: 32px;
     left: 50%;
     transform: translateX(-50%) scale(0.8);
-    @media only screen and (max-width: 800px) {
-      transform: translateX(-50%) scale(0.6);
+    @media only screen and (max-width: 1200px) {
+      transform: translateX(-50%) scale(0.56);
       top: -60px;
+    }
+    @media only screen and (max-width: 800px) {
+      transform: translateX(-50%) scale(0.64);
+      top: -20px;
     }
   }
 
@@ -317,9 +338,14 @@ header {
     top: -80px;
     left: 64%;
     transform: translateX(-50%) scale(0.6);
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1200px) {
       left: 50%;
       transform: translateX(-50%) scale(0.46);
+      top: -80px;
+    }
+    @media only screen and (max-width: 800px) {
+      left: 50%;
+      transform: translateX(-50%) scale(0.42);
       top: -80px;
     }
   }

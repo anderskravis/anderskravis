@@ -154,7 +154,9 @@ header {
   flex-wrap: wrap;
   margin: 0 -24px;
   margin-bottom: 24px; }
-
+  @media only screen and (max-width: 800px) {
+    #work {
+      margin-bottom: 0px; } }
 .work-card {
   position: relative;
   overflow: hidden;
@@ -189,6 +191,10 @@ header {
     color: #6b62ff;
     font-size: 12px;
     max-width: 80px; }
+    @media only screen and (max-width: 1200px) {
+      .work-card .callout {
+        font-size: 8px;
+        max-width: 48px; } }
     @media only screen and (max-width: 800px) {
       .work-card .callout {
         display: none; } }
@@ -220,6 +226,11 @@ header {
       top: -80px;
       left: 50%;
       transform: translateX(-50%) scale(0.44); }
+      @media only screen and (max-width: 1200px) {
+        .work-card.third .macbook {
+          left: 86%;
+          transform: translateX(-50%) scale(0.46);
+          top: -80px; } }
       @media only screen and (max-width: 800px) {
         .work-card.third .macbook {
           left: 50%;
@@ -238,28 +249,41 @@ header {
     top: 32px;
     left: 50%;
     transform: translateX(-50%) scale(0.8); }
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1200px) {
       .work-card .iphone-x {
         transform: translateX(-50%) scale(0.6);
+        top: -60px; } }
+    @media only screen and (max-width: 800px) {
+      .work-card .iphone-x {
+        transform: translateX(-50%) scale(0.56);
         top: -60px; } }
   .work-card .iphone5c {
     position: absolute;
     top: 32px;
     left: 50%;
     transform: translateX(-50%) scale(0.8); }
+    @media only screen and (max-width: 1200px) {
+      .work-card .iphone5c {
+        transform: translateX(-50%) scale(0.56);
+        top: -60px; } }
     @media only screen and (max-width: 800px) {
       .work-card .iphone5c {
-        transform: translateX(-50%) scale(0.6);
-        top: -60px; } }
+        transform: translateX(-50%) scale(0.64);
+        top: -20px; } }
   .work-card .macbook {
     position: absolute;
     top: -80px;
     left: 64%;
     transform: translateX(-50%) scale(0.6); }
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1200px) {
       .work-card .macbook {
         left: 50%;
         transform: translateX(-50%) scale(0.46);
+        top: -80px; } }
+    @media only screen and (max-width: 800px) {
+      .work-card .macbook {
+        left: 50%;
+        transform: translateX(-50%) scale(0.42);
         top: -80px; } }
 @keyframes bloborbit {
   0% {
