@@ -40,17 +40,20 @@ nav {
     text-decoration: none;
     color: $grey;
     border-radius: $radius-sm;
+    border-bottom: none;
     transition: $transition;
     @media (prefers-color-scheme: dark) {
       color: rgba(255,255,255,0.42)
     }
     &.active {
       color: $black;
+      border-bottom: none;
       @media (prefers-color-scheme: dark) {
         color: rgba(255,255,255,0.8);
       }
     }
    &:hover {
+     border-bottom: none;
       background: rgba(0,0,0,0.1);
       @media (prefers-color-scheme: dark) {
         background: $black;
@@ -126,6 +129,7 @@ header {
       color: rgba(0,0,0,0.5);
       text-decoration: none;
       transition: $transition;
+      border-bottom: none;
       @media (prefers-color-scheme: dark) {
         color: rgba(255,255,255,0.3);
       }
@@ -141,6 +145,8 @@ header {
 
 
 }
+
+
 
 
 #blob {
@@ -320,6 +326,28 @@ header {
   box-shadow: 0px 0px 4px 4px rgba(0,0,0,1);
 }
 
+.sub-link {
+  color: $grey;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  @media (prefers-color-scheme: dark) {
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+  }
+  &:hover {
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+  }
+}
+
+a {
+  transition: $transition;
+  color: $blue;
+  text-decoration: none;
+  border-bottom: 2px solid rgba($blue, .5);
+  &:hover {
+    border-bottom: 2px solid $blue;
+  }
+}
+
 
 #about {
   align-items: center;
@@ -333,7 +361,6 @@ p {
   line-height: 48px;
   color: $grey;
   a {
-    color: $blue;
     @media (prefers-color-scheme: dark) {
       color: #6b62ff;
     }
