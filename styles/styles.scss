@@ -7,6 +7,9 @@ body {
   font-family: 'Inter', sans-serif;
   padding: 0px;
   margin: 0px;
+  @media (prefers-color-scheme: dark) {
+    background: #070609;
+  }
 }
 
 .hide-mobile {
@@ -20,8 +23,9 @@ nav {
   padding: 4px 24px;
   display: flex;
   justify-content: space-around;
-
-
+  @media (prefers-color-scheme: dark) {
+    background: rgba(0,0,0,0.9);
+  }
 
   a {
     padding: 12px;
@@ -33,6 +37,9 @@ nav {
     transition: $transition;
    &:hover {
       background: rgba(0,0,0,0.1);
+      @media (prefers-color-scheme: dark) {
+        background: rgba(255,255,255,0.1);
+      }
     }
     &.icon {
       padding: 0px 24px;
@@ -62,6 +69,9 @@ position: relative;
 @media only screen and (max-width: 800px) {
   padding: 20px;
 }
+@media (prefers-color-scheme: dark) {
+  background: #070609;
+}
 }
 
 
@@ -76,6 +86,9 @@ header {
   h1 {
     font-size: 56px;
     color: black;
+    @media (prefers-color-scheme: dark) {
+      color: rgba(255,255,255,0.9);
+    }
     @media only screen and (max-width: 800px) {
         font-size: 40px;
     }
@@ -86,13 +99,22 @@ header {
     }
     font-size: 56px;
     color: rgba(0,0,0,0.5);
+    @media (prefers-color-scheme: dark) {
+      color: rgba(255,255,255,0.3);
+    }
     max-width: 1280px;
     a {
       color: rgba(0,0,0,0.5);
       text-decoration: none;
       transition: $transition;
+      @media (prefers-color-scheme: dark) {
+        color: rgba(255,255,255,0.3);
+      }
       &:hover {
         border-bottom: 2px solid rgba(0,0,0,0.5);
+        @media (prefers-color-scheme: dark) {
+          border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
       }
     }
   }
@@ -149,7 +171,10 @@ header {
 }
 
 .work-card {
-
+  @media (prefers-color-scheme: dark) {
+    color: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.04);
+  }
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -183,6 +208,9 @@ header {
     top: 24px;
     right: 24px;
     color: #0E00FF;
+    @media (prefers-color-scheme: dark) {
+      color: #4941d9;
+    }
     font-size: 12px;
     max-width: 80px;
     @media only screen and (max-width: 800px) {
