@@ -104,12 +104,6 @@ h1 {
   margin: 0 0 20px;
 }
 
-.intro p.next {
-  color: var(--text-muted);
-  font-style: italic;
-  margin-bottom: 0;
-}
-
 /* Footer / contact */
 
 footer {
