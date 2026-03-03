@@ -55,6 +55,55 @@
 
     </div>
   </main>
+
+  <aside class="status" aria-label="Current location and time">
+    <button class="location active" data-tz="America/Toronto">
+      <div class="loc-row">
+        <span class="loc-name">Toronto</span>
+        <span class="loc-dot">●</span>
+      </div>
+      <div class="loc-time" id="time-toronto">—</div>
+    </button>
+    <button class="location" data-tz="Europe/London">
+      <div class="loc-row">
+        <span class="loc-name">London</span>
+        <span class="loc-dot">●</span>
+      </div>
+      <div class="loc-time" id="time-london">—</div>
+    </button>
+  </aside>
+
+  <script>
+    (function () {
+      var locs = document.querySelectorAll('.location');
+      var els = {
+        toronto: document.getElementById('time-toronto'),
+        london:  document.getElementById('time-london')
+      };
+
+      function fmt(tz) {
+        return new Date().toLocaleTimeString('en-GB', {
+          timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: false
+        });
+      }
+
+      function tick() {
+        els.toronto.textContent = fmt('America/Toronto');
+        els.london.textContent  = fmt('Europe/London');
+      }
+
+      tick();
+      setInterval(tick, 30000);
+
+      locs.forEach(function (loc) {
+        loc.addEventListener('click', function () {
+          if (loc.classList.contains('active')) return;
+          locs.forEach(function (l) { l.classList.remove('active'); });
+          loc.classList.add('active');
+        });
+      });
+    })();
+  </script>
 </body>
 
 </html>
