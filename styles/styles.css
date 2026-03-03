@@ -73,7 +73,9 @@ main {
 /* Header */
 
 header {
-  margin-bottom: 40px;
+  margin-bottom: 36px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid var(--text-faint);
 }
 
 h1 {
@@ -136,6 +138,23 @@ h1 {
 
 footer {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 32px;
+  border-top: 1px solid var(--text-faint);
+}
+
+.footer-label {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px 12px;
@@ -175,7 +194,7 @@ footer a:hover {
     display: none;
   }
 
-  footer {
+  .footer-links {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
