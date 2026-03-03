@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- Hey! You found it. And all you got was this comment. -->
 <html lang="en">
 
 <head>
@@ -34,16 +35,16 @@
     <div class="content">
 
       <header>
-        <h1>Anders Kravis<span class="cursor">_</span></h1>
+        <h1>Anders Kravis<a class="cursor" href="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXkwbmZuODd1cnRyYjdwanM5ZHF4YWVpcG82dnVhYzdpZHRyNWQxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ornk57KwDXf81rjWM/giphy.gif" target="_blank" rel="noopener" aria-label="surprise">_</a></h1>
         <p class="role">CPO at <a href="https://www.finimize.com" target="_blank" rel="noopener">Finimize</a></p>
       </header>
 
       <section class="intro">
         <p>
-          I help people build and ship great products. Right now that means leading product at Finimize — making it genuinely easy for everyday people to invest with confidence.
+          I've helped teams build and ship great products over the last decade across Toronto and London. Right now that means leading product at Finimize — making it genuinely easy for everyday people to invest with confidence.
         </p>
         <p>
-          I work at the intersection of product strategy, growth, and what it takes to build things people actually need. Spent the last decade thinking about this across startups in Toronto and London.
+          Grew up around architects and Finnish design, built my first client websites at 16, then went to business school. Turns out that's a useful combination. 🙃
         </p>
       </section>
 
@@ -55,6 +56,55 @@
 
     </div>
   </main>
+
+  <aside class="status" aria-label="Current location and time">
+    <button class="location active" data-tz="America/Toronto">
+      <div class="loc-row">
+        <span class="loc-name">Toronto</span>
+        <span class="loc-dot">●</span>
+      </div>
+      <div class="loc-time" id="time-toronto">—</div>
+    </button>
+    <button class="location" data-tz="Europe/London">
+      <div class="loc-row">
+        <span class="loc-name">London</span>
+        <span class="loc-dot">●</span>
+      </div>
+      <div class="loc-time" id="time-london">—</div>
+    </button>
+  </aside>
+
+  <script>
+    (function () {
+      var locs = document.querySelectorAll('.location');
+      var els = {
+        toronto: document.getElementById('time-toronto'),
+        london:  document.getElementById('time-london')
+      };
+
+      function fmt(tz) {
+        return new Date().toLocaleTimeString('en-GB', {
+          timeZone: tz, hour: '2-digit', minute: '2-digit', hour12: false
+        });
+      }
+
+      function tick() {
+        els.toronto.textContent = fmt('America/Toronto');
+        els.london.textContent  = fmt('Europe/London');
+      }
+
+      tick();
+      setInterval(tick, 30000);
+
+      locs.forEach(function (loc) {
+        loc.addEventListener('click', function () {
+          if (loc.classList.contains('active')) return;
+          locs.forEach(function (l) { l.classList.remove('active'); });
+          loc.classList.add('active');
+        });
+      });
+    })();
+  </script>
 </body>
 
 </html>
