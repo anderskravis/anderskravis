@@ -92,6 +92,7 @@ h1 {
   color: var(--accent);
   font-weight: 400;
   animation: blink 1.2s step-end infinite;
+  text-decoration: none;
 }
 
 @keyframes blink {
